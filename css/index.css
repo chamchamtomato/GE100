@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    background-color: var(--purple-200-color);
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    font-size: 30px;
+    background-color: rgb(205, 193, 255, 0.3);
+    width: 70%;
+    height: 50%;
+    padding: 100px 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    color: var(--purple-100-color);
+    opacity: 0.8;
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.login-input-box {
+    display: flex;
+    gap: 20px;
+}
+
+.login-input-box input {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgb(245, 239, 255, 0.6);
+    width: 100%;
+    padding: 10px;
+    color: var(--purple-100-color);
+}
+
+.login-input-box input::placeholder {
+    color: var(--purple-100-color);
+    letter-spacing: 10px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.login-button-container button {
+    background-color: rgb(245, 239, 255, 0.2);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: var(--purple-100-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.login-button-container button:hover {
+    background-color: rgb(245, 239, 255, 0.4);
+    letter-spacing: 25px;
+    color: white;
+}
